@@ -1,6 +1,6 @@
 class minecraft {
   $url = 'https://s3.amazonaws.com/Minecraft.Download/versions/1.12.2/minecraft_server.1.12.2.jar'
-  $iinstall_dir = '/opt/minecraft'
+  $install_dir = '/opt/minecraft'
   file {$install_dir:
     ensure => directory,
   }
